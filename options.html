@@ -30,14 +30,8 @@
     <div class="special-status-section">
       <h3 id="specialStatusTitle"></h3>
       <div class="status-item special">
-        <div class="status-header">
-          <label class="toggle-switch">
-            <input type="checkbox" id="overdueEnabled">
-            <span class="slider round"></span>
-          </label>
-          <span class="status-label" id="overdueLabel"></span>
-        </div>
         <div class="overdue-settings" id="overdueSettings">
+          <span class="status-label" id="overdueLabel"></span>
           <div>
             <label id="backgroundColorLabel"></label>
             <input type="color" id="overdueBackground" value="#FFE0E0">
@@ -47,6 +41,12 @@
             <input type="color" id="overdueColor" value="#FF0000">
           </div>
           <div class="color-preview" id="overduePreview"></div>
+        </div>
+        <div class="status-header">
+          <label class="toggle-switch">
+            <input type="checkbox" id="overdueEnabled">
+            <span class="slider round"></span>
+          </label>
         </div>
       </div>
     </div>

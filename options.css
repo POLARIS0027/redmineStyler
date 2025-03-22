@@ -39,6 +39,15 @@
     border-left: 4px solid #ff4444;
 }
 
+.overdue-settings {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    /* 요소 사이 간격 */
+    flex-wrap: wrap;
+    /* 좁은 화면에서도 줄바꿈 가능 */
+}
+
 /* 상태 아이템 */
 .status-item {
     display: flex;
@@ -62,6 +71,7 @@
     align-items: center;
     gap: 10px;
     margin-bottom: 10px;
+    margin-left: auto;
 }
 
 /* 토글 스위치 */
