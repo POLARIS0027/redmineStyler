@@ -1,6 +1,10 @@
 # 📌 프로젝트 개요
 **Redmine 상태별 색상 표시 Chrome 확장 프로그램**은 회사 내부에서 사용하는 Redmine 티켓 시스템에 상태별 색상 구분을 적용하기 위해 개발되었습니다. 서버 접근 권한이 제한된 환경에서 사용자 경험을 개선하고자 클라이언트 측에서 작동하는 브라우저 확장 프로그램을 구현했습니다.
 
+![Image](https://github.com/user-attachments/assets/58c960c1-ecd9-450c-96f2-404a450d5587)
+
+![Image](https://github.com/user-attachments/assets/62849589-9e85-4d7c-ad9e-815365f269a2)
+
 # 🧩 프로젝트 배경
 회사에서는 평가 업무 시 Redmine을 통해 버그와 티켓을 관리합니다. 하지만 사내 Redmine은 서버 접근이 불가능하여 플러그인 설치나 서버 커스터마이징이 불가능했습니다.
 
