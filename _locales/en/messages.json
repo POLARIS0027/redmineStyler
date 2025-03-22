@@ -1,0 +1,66 @@
+{
+    "extName": {
+        "message": "Redmine Styler – Customize Status Colors",
+        "description": "Extension name"
+    },
+    "extDescription": {
+        "message": "A Chrome extension that lets you customize background and text colors based on Redmine ticket statuses.",
+        "description": "Extension description"
+    },
+    "title": {
+        "message": "Status Color Settings",
+        "description": "Options page title"
+    },
+    "urlPattern": {
+        "message": "URL Pattern",
+        "description": "URL pattern label"
+    },
+    "specialStatus": {
+        "message": "Special Status Settings",
+        "description": "Special status section title"
+    },
+    "overdue": {
+        "message": "Overdue",
+        "description": "Overdue status name"
+    },
+    "normalStatus": {
+        "message": "Normal Status Settings",
+        "description": "Normal status section title"
+    },
+    "addStatus": {
+        "message": "Add New Status",
+        "description": "Add status button text"
+    },
+    "statusName": {
+        "message": "Status Name (e.g. New, In Progress)",
+        "description": "Status name input placeholder"
+    },
+    "backgroundColor": {
+        "message": "Background Color",
+        "description": "Background color label"
+    },
+    "textColor": {
+        "message": "Text Color",
+        "description": "Text color label"
+    },
+    "preview": {
+        "message": "Preview",
+        "description": "Preview label"
+    },
+    "delete": {
+        "message": "Delete",
+        "description": "Delete button text"
+    },
+    "save": {
+        "message": "Save Settings",
+        "description": "Save button text"
+    },
+    "saved": {
+        "message": "Settings have been saved.",
+        "description": "Settings saved message"
+    },
+    "addNew": {
+        "message": "Add",
+        "description": "Add new button text"
+    }
+}

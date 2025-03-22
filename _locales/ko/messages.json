@@ -1,0 +1,66 @@
+{
+    "extName": {
+        "message": "Redmine Styler – 상태별 색상 커스터마이징",
+        "description": "확장 프로그램 이름"
+    },
+    "extDescription": {
+        "message": "Redmine 티켓 상태에 따라 배경색과 글자색을 자유롭게 지정할 수 있는 Chrome 확장 기능입니다.",
+        "description": "확장 프로그램 설명"
+    },
+    "title": {
+        "message": "상태별 색상 설정",
+        "description": "옵션 페이지 제목"
+    },
+    "urlPattern": {
+        "message": "URL 패턴",
+        "description": "URL 패턴 레이블"
+    },
+    "specialStatus": {
+        "message": "특별 상태 설정",
+        "description": "특별 상태 섹션 제목"
+    },
+    "overdue": {
+        "message": "기한 초과",
+        "description": "기한 초과 상태 이름"
+    },
+    "normalStatus": {
+        "message": "일반 상태 설정",
+        "description": "일반 상태 섹션 제목"
+    },
+    "addStatus": {
+        "message": "새 상태 추가",
+        "description": "상태 추가 버튼 텍스트"
+    },
+    "statusName": {
+        "message": "상태명 (예: 신규, 진행중)",
+        "description": "상태명 입력 필드 placeholder"
+    },
+    "backgroundColor": {
+        "message": "배경색",
+        "description": "배경색 레이블"
+    },
+    "textColor": {
+        "message": "글자색",
+        "description": "글자색 레이블"
+    },
+    "preview": {
+        "message": "미리보기",
+        "description": "미리보기 레이블"
+    },
+    "delete": {
+        "message": "삭제",
+        "description": "삭제 버튼 텍스트"
+    },
+    "save": {
+        "message": "설정 저장",
+        "description": "저장 버튼 텍스트"
+    },
+    "saved": {
+        "message": "설정이 저장되었습니다.",
+        "description": "설정 저장 메시지"
+    },
+    "addNew": {
+        "message": "추가",
+        "description": "새로 추가 버튼 텍스트"
+    }
+}

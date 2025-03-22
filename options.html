@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redmine Styler</title>
+  <link rel="stylesheet" href="options.css">
+  <style>
+    body {
+      visibility: hidden;
+    }
+
+    .content-loaded {
+      visibility: visible;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h2 id="title"></h2>
+    <!-- URL 패턴 설정 -->
+    <div class="url-pattern">
+      <label id="urlPatternLabel"></label>
+      <input type="text" id="urlPattern">
+    </div>
+
+    <!-- OverDue 설정 -->
+    <div class="special-status-section">
+      <h3 id="specialStatusTitle"></h3>
+      <div class="status-item special">
+        <div class="status-header">
+          <label class="toggle-switch">
+            <input type="checkbox" id="overdueEnabled">
+            <span class="slider round"></span>
+          </label>
+          <span class="status-label" id="overdueLabel"></span>
+        </div>
+        <div class="overdue-settings" id="overdueSettings">
+          <div>
+            <label id="backgroundColorLabel"></label>
+            <input type="color" id="overdueBackground" value="#FFE0E0">
+          </div>
+          <div>
+            <label id="textColorLabel"></label>
+            <input type="color" id="overdueColor" value="#FF0000">
+          </div>
+          <div class="color-preview" id="overduePreview"></div>
+        </div>
+      </div>
+    </div>
+
+    <h3 id="normalStatusTitle"></h3>
+    <!-- 상태 목록 -->
+    <div id="statusList">
+      <!-- 동적으로 추가될것들 여기 -->
+    </div>
+
+    <!-- 새 상태 추가 폼 -->
+    <div class="add-status-form">
+      <h3 id="addStatusTitle"></h3>
+      <div class="input-group">
+        <div>
+          <input type="text" id="newStatusAlias">
+        </div>
+        <div>
+          <label id="newBgColorLabel"></label>
+          <input type="color" id="newStatusBgColor" value="#ffffff">
+        </div>
+        <div>
+          <label id="newTextColorLabel"></label>
+          <input type="color" id="newStatusFontColor" value="#000000">
+        </div>
+        <button id="addNewStatus"></button>
+      </div>
+    </div>
+
+    <!-- 저장 버튼 -->
+    <button id="saveButton" class="save-btn"></button>
+  </div>
+
+  <!-- 상태 아이템 템플릿 -->
+  <template id="statusItemTemplate">
+    <div class="status-item">
+      <input type="text" class="alias-input">
+      <div>
+        <label class="bg-color-label"></label>
+        <input type="color" class="bg-color-input">
+      </div>
+      <div>
+        <label class="text-color-label"></label>
+        <input type="color" class="font-color-input">
+      </div>
+      <div class="color-preview"></div>
+      <button class="delete-btn"></button>
+    </div>
+  </template>
+
+  <script src="options.js"></script>
+</body>
+
+</html>

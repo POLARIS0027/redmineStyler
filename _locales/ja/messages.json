@@ -1,0 +1,66 @@
+{
+    "extName": {
+        "message": "Redmine Styler – ステータス別の色カスタマイズ",
+        "description": "拡張機能名"
+    },
+    "extDescription": {
+        "message": "Redmineのチケットステータスに応じて、背景色や文字色を自由に設定できるChrome拡張機能です。",
+        "description": "拡張機能の説明"
+    },
+    "title": {
+        "message": "ステータス別の色設定",
+        "description": "オプションページのタイトル"
+    },
+    "urlPattern": {
+        "message": "URLパターン",
+        "description": "URLパターンラベル"
+    },
+    "specialStatus": {
+        "message": "特別ステータス設定",
+        "description": "特別ステータスセクションのタイトル"
+    },
+    "overdue": {
+        "message": "期限超過",
+        "description": "期限超過ステータス名"
+    },
+    "normalStatus": {
+        "message": "一般ステータス設定",
+        "description": "一般ステータスセクションのタイトル"
+    },
+    "addStatus": {
+        "message": "新規ステータス追加",
+        "description": "ステータス追加ボタンのテキスト"
+    },
+    "statusName": {
+        "message": "ステータス名 (例: 新規, 進行中)",
+        "description": "ステータス名入力フィールドのプレースホルダー"
+    },
+    "backgroundColor": {
+        "message": "背景色",
+        "description": "背景色ラベル"
+    },
+    "textColor": {
+        "message": "文字色",
+        "description": "文字色ラベル"
+    },
+    "preview": {
+        "message": "プレビュー",
+        "description": "プレビューラベル"
+    },
+    "delete": {
+        "message": "削除",
+        "description": "削除ボタンのテキスト"
+    },
+    "save": {
+        "message": "設定を保存",
+        "description": "保存ボタンのテキスト"
+    },
+    "saved": {
+        "message": "設定が保存されました。",
+        "description": "設定保存メッセージ"
+    },
+    "addNew": {
+        "message": "追加",
+        "description": "新規追加ボタンのテキスト"
+    }
+}
