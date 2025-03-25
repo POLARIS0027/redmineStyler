@@ -24,3 +24,8 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
     });
   }
 });
+
+// 이름 클릭시 option으로
+chrome.action.onClicked.addListener(() => {
+  chrome.runtime.openOptionsPage();
+});
