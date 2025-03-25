@@ -5,6 +5,8 @@
 
 ![Image](https://github.com/user-attachments/assets/c23071d7-cec2-4b49-9a7d-1c1f862b4113)
 
+[다운로드](https://chromewebstore.google.com/detail/eianjmfecdppblkehkjojenjbmgianih?utm_source=item-share-cb)
+
 # 🧩 프로젝트 배경
 회사에서는 평가 업무 시 Redmine을 통해 버그와 티켓을 관리합니다. 하지만 사내 Redmine은 서버 접근이 불가능하여 플러그인 설치나 서버 커스터마이징이 불가능했습니다.
 
